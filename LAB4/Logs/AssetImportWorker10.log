@@ -1,0 +1,424 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 32602 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/1/LIGHT/LAB4
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+57896
+Successfully changed project path to: D:/1/LIGHT/LAB4
+D:/1/LIGHT/LAB4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38880] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3296839625 [EditorId] 3296839625 [Version] 1048832 [Id] WindowsEditor(7,KOLOKOJI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38880] Host "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3296839625 [EditorId] 3296839625 [Version] 1048832 [Id] WindowsEditor(7,KOLOKOJI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/1/LIGHT/LAB4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001927 seconds.
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.146 seconds
+Domain Reload Profiling: 341ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (112ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.331 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 635ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 2.170400 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.931400 ms  DeleteObjects: 0.068900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79247.733194 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Characters/Ch46_nonPBR.fbx
+  artifactKey: Guid(f1d1e7cf99187b34ca8507968cd80248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Characters/Ch46_nonPBR.fbx using Guid(f1d1e7cf99187b34ca8507968cd80248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1514ea42e9473cda3c3b950257e885') in 0.100056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 22.303783 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Characters/GUARD.fbx
+  artifactKey: Guid(fccc0f1531817704c9b2922ff04a7c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Characters/GUARD.fbx using Guid(fccc0f1531817704c9b2922ff04a7c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1439e1db643ed4790415f6766155e83f') in 0.026760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Characters/Guard_03__specular.png
+  artifactKey: Guid(9c5fdcd998c66c445bdc426617ab94e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Characters/Guard_03__specular.png using Guid(9c5fdcd998c66c445bdc426617ab94e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3037fdbfff273d4369d7401c86eddca') in 0.009362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.175778 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Characters/GUARD.fbx
+  artifactKey: Guid(fccc0f1531817704c9b2922ff04a7c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Characters/GUARD.fbx using Guid(fccc0f1531817704c9b2922ff04a7c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c12f6e6100d3f509844d372a4c265e') in 0.012484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.007419 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Characters/Guard_03.mat
+  artifactKey: Guid(420f2671a68dff6419ebd024ad81c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Characters/Guard_03.mat using Guid(420f2671a68dff6419ebd024ad81c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e51c43a9e3fa8973f4d7565be04e5c') in 0.005024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 200.824307 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations
+  artifactKey: Guid(4c08d8b66cbb47244adbf67749a602e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations using Guid(4c08d8b66cbb47244adbf67749a602e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84227a1cc8015ab32f06e5ac9173ed0') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.674154 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore
+  artifactKey: Guid(bfed7e306c362b14f9b5c8c6b7894906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore using Guid(bfed7e306c362b14f9b5c8c6b7894906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484c1966080569276020b338c7ca882') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.248179 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore/Step 1
+  artifactKey: Guid(45dbf066f6e28f7498d6227510c309e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore/Step 1 using Guid(45dbf066f6e28f7498d6227510c309e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334005c11ef2e3c9fcfda73bbf580c27') in 0.000295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046705 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore/Step 1/idle.fbx
+  artifactKey: Guid(ff27d8615153a6546980a43f2093ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/1-Explore/Step 1/idle.fbx using Guid(ff27d8615153a6546980a43f2093ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6513fe9684d7c05d0bbd84861329d6') in 0.003357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 8.552752 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act
+  artifactKey: Guid(43025a9b9a43ccc459d8f152a4bcda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act using Guid(43025a9b9a43ccc459d8f152a4bcda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31812856579856773b2e30fddcbc3ca2') in 0.000307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.643190 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1
+  artifactKey: Guid(4614af6c8c3292e49ab0a98eea52aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1 using Guid(4614af6c8c3292e49ab0a98eea52aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9c5000724e1dff570b3ee6b8ec4b22') in 0.000303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054296 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/breathing-idle.fbx
+  artifactKey: Guid(392be25371856194daaf7371ea018e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/breathing-idle.fbx using Guid(392be25371856194daaf7371ea018e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3514d0a8169006f1b63d04ecee8760e9') in 0.002266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/coverToStand.fbx
+  artifactKey: Guid(c9df50c885f19134fbb40aa510c9924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/coverToStand.fbx using Guid(c9df50c885f19134fbb40aa510c9924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fbc579f97644d03a8ce74af787eb0e') in 0.002145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/Crouch-SneakingLeft.fbx
+  artifactKey: Guid(9a588beb4f1a7be4da0f565091027740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/Crouch-SneakingLeft.fbx using Guid(9a588beb4f1a7be4da0f565091027740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f5f926f72d54771d20c0ad3cf4c545') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/StandToCover.fbx
+  artifactKey: Guid(923c0298d4e9f214d81b21631d26039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/Part 1/Animations/2-Act/Act 1/StandToCover.fbx using Guid(923c0298d4e9f214d81b21631d26039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971e023df533090e7fe87a2c7fc087ca') in 0.002180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 38.094434 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx
+  artifactKey: Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx using Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876fc24b9f0643be2cf01ee2ab7b8871') in 0.010544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004548 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx
+  artifactKey: Guid(e7acb14ed36ace9438cb0acd158f7d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx using Guid(e7acb14ed36ace9438cb0acd158f7d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f34f676a26938613f6bf22c005fd83') in 0.012151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_03.fbx
+  artifactKey: Guid(a505163f5c342a548897854f574e67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_03.fbx using Guid(a505163f5c342a548897854f574e67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c79a0f2f272889311720ba72bf6696d') in 0.018637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx
+  artifactKey: Guid(f5a2aed0ed573f4479111a67565c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx using Guid(f5a2aed0ed573f4479111a67565c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df04c17f148d63d0a4946c9e5ba3204') in 0.007138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_02.fbx
+  artifactKey: Guid(5ffc2767e722d8b47b8c8b3c55c0d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_02.fbx using Guid(5ffc2767e722d8b47b8c8b3c55c0d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5471f57f3500c52b4ce34ae1954ee7ed') in 0.014629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#2.fbx
+  artifactKey: Guid(35ac973e8dbde6544a813fd187cda90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#2.fbx using Guid(35ac973e8dbde6544a813fd187cda90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0516e9bb0ab9cba30b228c07aa4f7') in 0.007533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.283 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3580.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 2.062900 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.820200 ms  DeleteObjects: 0.052100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
